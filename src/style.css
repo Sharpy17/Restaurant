@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Kablammo:regular);
+
+    body {
+        display: grid;
+        height: 100vh;
+        width: 100vw;
+        grid-template-rows: 1fr 1fr 8fr;
+        font-family: Kablammo;
+        background-image: url("../src/pexel.jpg");
+        background-size: 1500px;
+    }
+
+    .header,
+    .info,
+    h1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info,
+    .header {
+        font-size: 20px;
+    }
+
+    .info {
+        color: rgb(0, 0, 0);
+        margin-inline: 500px;
+        margin: 280px;
+    }
