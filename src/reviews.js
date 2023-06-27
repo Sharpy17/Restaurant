@@ -2,11 +2,11 @@ export default function populateReviews() {
     const content = document.querySelector("#content");
 
     const reviewer1 = document.createElement("div");
-    const name1 = document.createElement("p");
+    const name1 = document.createElement("h2");
     const review1 = document.createElement("p");
 
     const reviewer2 = document.createElement("div");
-    const name2 = document.createElement("p");
+    const name2 = document.createElement("h2");
     const review2 = document.createElement("p");
 
     content.append(reviewer1, reviewer2);
